@@ -23,10 +23,6 @@ They output the files:
 
 respectively.
 
-> I ran it and it said warning
-
-You should get one warning when running it about using version 1.00 in a version 2.00 parser. This is okay, you can ignore it.
-
 > I ran it and it broke
 
 Uh-oh. Did you edit any of the files? If so you may have accidentally broken one of the bits of the code, perhaps missed one of the angle brackets (<>). If you retrace your steps (undo) you should eventually get it back to a state where it works. If you use the Github client you can make local commits so its easier to rollback to a working state. But you need to SYNC if you want to publish your changes back to everyone.
