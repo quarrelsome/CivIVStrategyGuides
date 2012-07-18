@@ -1,0 +1,1 @@
+A repository for the work in progress on the illustrated strategy guides for Civ IV.
