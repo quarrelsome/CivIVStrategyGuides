@@ -16,10 +16,9 @@
     </html>
   </xsl:template>
  
-  <xsl:template match="LeaderHeadInfo">
-	<xsl:param name="LeaderName" select="Type"/>
+  <xsl:template match="LeaderHeadInfo">	
+    <h2><xsl:value-of select="Type"/></h2>
 	
-    <h2><xsl:value-of select="substring-after($LeaderName, 'LEADER_')"/></h2>
 	<h3>Attitude Thresholds</h3>
 	<table border="1">
 		<tr><td>Will no longer open borders</td><td><xsl:value-of select="OpenBordersRefuseAttitudeThreshold"/></td></tr>
