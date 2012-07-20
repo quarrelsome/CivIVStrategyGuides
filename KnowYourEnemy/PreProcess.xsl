@@ -10,6 +10,7 @@
  <xsl:output omit-xml-declaration="yes" indent="yes"/>
  <xsl:strip-space elements="*"/>
 
+
  <!-- Numbers attitudes to enable us to convert the "refuses at" elements into "accepts at" -->
  <my:attitudes>
    <a val="0">FURIOUS</a>
@@ -47,7 +48,19 @@
  <!-- All of the following converts values into more usable forms -->
   <xsl:template match="LeaderHeadInfo/Type">
   <xsl:element  name="Type">
-   <xsl:value-of select="civf:book-capitalise(substring-after(current(), 'LEADER_'))"/>
+<xsl:value-of select="civf:book-capitalise-all(replace(substring-after(current(), 'LEADER_'), '_', ' '))"/>
+  </xsl:element>
+ </xsl:template>
+ 
+  <xsl:template match="LeaderHeadInfo/FavoriteCivic">
+  <xsl:element  name="FavoriteCivic">
+   <xsl:value-of select="civf:book-capitalise-all(replace(substring-after(current(), 'CIVIC_'), '_', ' '))"/>
+  </xsl:element>
+ </xsl:template>
+				
+ <xsl:template match="LeaderHeadInfo/MemoryAttitudePercents/MemoryAttitudePercent[MemoryType='MEMORY_TRADED_TECH_TO_US']">
+  <xsl:element  name="CivfMemoryTradedTechToUs">
+   <xsl:value-of select="iMemoryAttitudePercent"/>
   </xsl:element>
  </xsl:template>
  
@@ -190,7 +203,7 @@
  
     <xsl:template match="LeaderHeadInfo/iRazeCityProb">
    <xsl:element  name="iRazeCityProb">
-   <xsl:value-of select="round(. div 7.5)"/>
+   <xsl:value-of select="round(. div 10)"/>
   </xsl:element>
  </xsl:template>
  
@@ -200,7 +213,8 @@
   </xsl:element>
  </xsl:template>
  
- <!-- Book captialises values so they look better in the final form -->
+
+ <!-- Captialises first letter of input and lower cases the rest  -->
  <xsl:function name="civf:book-capitalise" 
  xmlns:civf="http://www.civfanatics.com"
  as="xs:string?">
@@ -211,6 +225,24 @@
  "/>
  </xsl:function>
  
+     <!-- Capitalize all words in string -->
+    <xsl:function name="civf:book-capitalise-all">
+        <xsl:param name="in" as="xs:string?"/>
+            <xsl:sequence select="civf:book-capitalise-all-with-arg($in,' ')"/>
+    </xsl:function>
+	
+    <xsl:function name="civf:book-capitalise-all-with-arg">
+        <xsl:param name="haystack" as="xs:string?"/>
+        <xsl:param name="needle" as="xs:string?"/>
+            <xsl:choose>
+                <xsl:when test="contains($haystack, $needle)">
+                    <xsl:sequence select="concat(concat(civf:book-capitalise(substring-before($haystack, $needle)),$needle), civf:book-capitalise-all-with-arg(substring-after($haystack, $needle),$needle))" />
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:sequence select="concat(civf:book-capitalise($haystack), $needle)" />
+                </xsl:otherwise>
+            </xsl:choose>
+    </xsl:function>
  
   <xsl:function name="civf:raise-attitude" 
  xmlns:civf="http://www.civfanatics.com"

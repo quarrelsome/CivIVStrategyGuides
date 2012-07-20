@@ -40,7 +40,7 @@
 		Shared Civics: Up to [COLOR="blue"]+<xsl:value-of select="iFavoriteCivicAttitudeChangeLimit"/>[/COLOR]
 		Shared Religion: Up to [COLOR="blue"]+<xsl:value-of select="iSameReligionAttitudeChangeLimit"/>[/COLOR] (additional +1 if <xsl:value-of select="Type"/> also owns the holy city)
 		Shared War: Up to [COLOR="blue"]+<xsl:value-of select="iShareWarAttitudeChangeLimit"/>[/COLOR] (additional +1 while sharing the war)
-		Tech trades required to receive +1 "shared your technological discoveries with us" - [COLOR="blue"]WHICH VALUE IS THIS?[/COLOR]
+		Tech trades required to receive +1 "shared your technological discoveries with us" - [COLOR="blue"]<xsl:value-of select="CivfMemoryTradedTechToUs"/>[/COLOR]
 	
 	[SIZE="3"][B] Attitude Thresholds[/B][/SIZE]
 		Will open borders: [COLOR="blue"]<xsl:value-of select="OpenBordersRefuseAttitudeThreshold"/>[/COLOR]
