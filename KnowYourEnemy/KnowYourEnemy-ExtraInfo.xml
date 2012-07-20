@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<KnowYourEnemy>
+	<Leader>
+		<Name>Alexander</Name>
+		<Image>http://i162.photobucket.com/albums/t276/DANE3E3/Alexander3.jpg</Image>
+		<Techs>Hunting and Fishing</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder
+Double production speed of Barracks, Drydock
+Philosophical - +100% production of :gp:
+Double production speed of University</Traits>
+		<UU>Phalanx - Axeman with +100% Defense vs. Chariots</UU>
+		<UB>Odeon - Colosseum with an extra +1 :) and +3 :culture:</UB>
+		<Flavour>Military (5) and Growth (2)</Flavour>
+		<WarBeh>Respects you greatly when you share wars with him, is very dangerous himself (can plot a war at pleased, builds a lot of units and is one of the leaders with the highest likeliness to go to war) and does not necessarily care if you are his neighbour or are farther away. He has a high courage so may attack even at low odds, and has a medium possibility to declare war on you if you don't follow his demands.</WarBeh>
+		<Pain>Medium to low. He gets on your nerves as every AI does when he's at war, asking you to join his cause, he gets on your nerves when you're trading with his Worst Enemy, but he specifically isn't one to aks for help or demand tribute and the likeliness for him to demand from you to change your civic is 1:1000.</Pain>
+		<Analysis>You might have guessed this already, but Alexander is a Warmonger, some even call him an "Extortionist" . To deal with him, there are basically two approaches:
+
+1) You must take sides, either you're with the good, or your with the bad. If you want to go for Domination, you'll find an excellent war-partner in him. You'll be running Vassalage anyways, like that you get +2 with Alex (don't forget to gift or trade him the tech of Feudalism, except if he is the Worst Enemy of Civs you wanna befriend) . You can share his Religion, like that you get another +4. You should have +2 through Open Borders, +1 through prolongued peace and maybe +4 for fair trade.
+
+Tactic: Bribe him against anyone you wish, join his war, aquire friendly status, and steal the cities he tries to conquer after he has wasted his forces on them. Let him do the work and suck up the bribes of the other Civs while you get the benefits (cities).
+
+2) Keep him busy. This tactic is far more dangerous and means you've decided to be on the side of the Good-Civs this time (i.e. because 3 of 4 neighbours are good and Alexander has the wrong Religion). Do everything to keep him constantly at war. Bribe Civs against him or bribe him against another Civ. The Civ you bribe him against will hate him always more than it'll hate you for having done that. If it's a good Civ, it'll hate him anyhow. See him hold off 2 or 3 other Civs while falling farther and farther behind because of lacking development and techs. Once you're strong enough and he's weak enough from the constant wars, take his empire with ease.
+</Analysis>
+	</Leader>
+	<Leader>
+		<Name>Asoka</Name>
+		<Image>http://i162.photobucket.com/albums/t276/DANE3E3/Asoka.jpg</Image>
+		<Techs></Techs>
+		<Traits></Traits>
+		<UU></UU>
+		<UB></UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Augustus Caesar</Name>
+		<Image>http://i162.photobucket.com/albums/t276/DANE3E3/Augustus.jpg</Image>
+		<Techs></Techs>
+		<Traits></Traits>
+		<UU></UU>
+		<UB></UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Alexander</Name>
+		<Image></Image>
+		<Techs></Techs>
+		<Traits></Traits>
+		<UU></UU>
+		<UB></UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+
+	</KnowYourEnemy>
