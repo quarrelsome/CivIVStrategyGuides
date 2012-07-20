@@ -64,6 +64,18 @@
   </xsl:element>
  </xsl:template>
  
+  <xsl:template match="LeaderHeadInfo/UnitAIWeightModifiers/UnitAIWeightModifier">
+  <xsl:element  name="CivfFavouriteUnit">
+   <xsl:value-of select="UnitAIType"/>
+  </xsl:element>
+ </xsl:template>
+ 
+   <xsl:template match="LeaderHeadInfo/ImprovementWeightModifiers/ImprovementWeightModifier">
+  <xsl:element  name="CivfFavouriteImprovement">
+   <xsl:value-of select="ImprovementType"/>
+  </xsl:element>
+ </xsl:template>
+ 
  <xsl:template match="LeaderHeadInfo/DemandTributeAttitudeThreshold">
   <xsl:variable name="vVal" select= "$vAttitudes[. = substring-after(current(), '_')]/@val"/>
   <xsl:element  name="DemandTributeAttitudeThreshold">
