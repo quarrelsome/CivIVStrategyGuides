@@ -1,0 +1,44 @@
+	Aggressive
+Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+
+	Charismatic
++1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower
+
+	Creative
++2:culture: per city
+Double production speed of Library, Theatre and Colosseum
+
+	Expansive
++2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+
+	Financial
++1:commerce: on tiles with at least 2:commerce:
+
+	Imperialistic
++100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers 
+
+	Industrious
++50%:hammers: bonus on production of Wonders
+Double production speed of Forge
+
+	Organized
+-50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse
+
+	Philosophical
++100%:gp: birth rate
+Double production speed of University
+
+	Protective
+Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle 
+
+	Spiritual
+No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder

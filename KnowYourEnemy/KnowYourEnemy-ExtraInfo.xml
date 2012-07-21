@@ -6,10 +6,10 @@
 		<Techs>Hunting and Fishing</Techs>
 		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder
 Double production speed of Barracks, Drydock
-Philosophical - +100% production of :gp:
++100%:gp: birth rate
 Double production speed of University</Traits>
-		<UU>Phalanx - Axeman with +100% Defense vs. Chariots</UU>
-		<UB>Odeon - Colosseum with an extra +1 :) and +3 :culture:</UB>
+		<UU>Phalanx - Axeman with +100% [i]Defense[/i] vs. Chariots</UU>
+		<UB>Odeon - Colosseum with extra +1:) and +3:culture:</UB>
 		<Flavour>Military (5) and Growth (2)</Flavour>
 		<WarBeh>Respects you greatly when you share wars with him, is very dangerous himself (can plot a war at pleased, builds a lot of units and is one of the leaders with the highest likeliness to go to war) and does not necessarily care if you are his neighbour or are farther away. He has a high courage so may attack even at low odds, and has a medium possibility to declare war on you if you don't follow his demands.</WarBeh>
 		<Pain>Medium to low. He gets on your nerves as every AI does when he's at war, asking you to join his cause, he gets on your nerves when you're trading with his Worst Enemy, but he specifically isn't one to aks for help or demand tribute and the likeliness for him to demand from you to change your civic is 1:1000.</Pain>

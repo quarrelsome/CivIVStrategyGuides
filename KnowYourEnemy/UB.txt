@@ -1,0 +1,155 @@
+	Alexander
+Odeon - Colosseum with extra +1:) and +3:culture:
+
+	Asoka
+Mausoleum - Jail with extra +2:)
+
+	Augustus Caesar
+Forum - Market with additional +25%:gp: birth rate
+
+	Bismarck
+Assembly Plant - Factory that [i]builds[/i] +50% faster with Coal. Can also turn 4 Citizens into Engineers instead of 2
+
+	Boudica
+Dun - Walls that give free Guerilla I promotion to units built in the city
+
+	Brennus
+Dun - Walls that give free Guerilla I promotion to units built in the city
+
+	Catherine
+Research Institute - Laboratory with +2 Free Scientists
+
+	Charlemagne
+Rathaus - Courthouse with -75% Maintenance costs instead of 50%
+
+	Churchill
+Stock Exchange - Bank with +15%:gold:
+
+	Cyrus
+Apothecary - Grocer with extra +2:health:
+
+	Darius
+Apothecary - Grocer with extra +2:health:
+
+	De Gaulle
+Salon - Observatory with +1 Free Artist specialist
+
+	Elizabeth
+Stock Exchange - Bank with +15%:gold:
+
+	Frederick
+Assembly Plant - Factory that [i]builds[/i] +50% faster with Coal. Can also turn 4 Citizens into Engineers instead of 2
+
+	Gandhi
+Mausoleum - Jail with extra +2:)
+
+	Genghis Khan
+Ger - Stable that gives new Mounted units +4 XP instead of 2
+
+	Gilgamesh
+Ziggurat - Courthouse that costs 90:hammers: instead of 120. Can be built with Priesthood instead of Civil Service
+
+	Hammurabi
+Garden - Colosseum with extra +2:health:
+
+	Hannibal
+Cothon - Harbor with +1 Trade Routes. Costs 100:hammers: instead of 80
+
+	Hatshepsut
+Obelisk - Monument that can turn 2 Citizens into Priests
+
+	Huayna Capac
+Terrace - Granary with +2:culture:
+
+	Isabella
+Citadel - Castle that gives new Siege units +5 XP
+
+	Joao II
+Feitoria - Customs House with extra +1:commerce: for Water Tiles
+
+	Julius Caesar
+Forum - Market with additional +25%:gp: birth rate
+
+	Justinian
+Hippodrome - Theatre with extra +1:), and +1:) per 5%:culture: rate instead of per 10%. +1:) from Horse instead of Dye
+
+	Kublai Khan
+Ger - Stable that gives new Mounted units +4 XP instead of 2
+
+	Lincoln
+Mall - Supermarket with extra +20%:gold: and +1:) from Hit Musicals, Hit Singles and Hit Movies
+
+	Louis XIV
+Salon - Observatory with +1 Free Artist specialist
+
+	Mansa Musa
+Mint - Forge with +10%:gold:
+
+	Mao Zedong
+Pavilion - Theatre with extra +25%:culture:
+
+	Mehmed II
+Hammam - Aqueduct with extra +2:)
+
+	Montezuma
+Sacrificial Altar - Courthouse with -50% Whipping Anger duration. Costs 90:hammers: instead of 120
+
+	Napoleon
+Salon - Observatory with +1 Free Artist specialist
+
+	Pacal II
+Ball Court - Colosseum with extra +2:)
+
+	Pericles
+Odeon - Colosseum with extra +1:) and +3:culture:
+
+	Peter
+Research Institute - Laboratory with +2 Free Scientists
+
+	Qin Shi Huang
+Pavilion - Theatre with extra +25%:culture:
+
+	Ragnar
+Trading Post - Lighthouse that gives free Navigation I promotion to new Naval units built in the city
+
+	Ramesses II
+Obelisk - Monument that can turn 2 Citizens into Priests
+
+	Roosevelt
+Mall - Supermarket with extra +20%:gold: and +1:) from Hit Musicals, Hit Singles and Hit Movies
+
+	Saladin
+Madrassa - Library with extra +2:culture:. Can turn 2 Citizens into Priests
+
+	Shaka
+Ikhanda - Barracks with -20% maintenance costs for the city. Costs 60:hammers: instead of 50
+
+	Sitting Bull
+Totem Pole - Monument that gives +3 XP to Archery units built in the city
+
+	Stalin
+Research Institute - Laboratory with +2 Free Scientists
+
+	Suleiman
+Hammam - Aqueduct with extra +2:)
+
+	Suryavarman II
+Baray - Aqueduct with extra +1:food:
+
+	Tokugawa
+Shale Plant - Coal Plant with extra +10%:hammers:
+
+	Victoria
+Stock Exchange - Bank with +15%:gold:
+
+	Wang Kon
+Seowon - University with extra +10%:science:
+
+	Washington
+Mall - Supermarket with extra +20%:gold: and +1:) from Hit Musicals, Hit Singles and Hit Movies
+
+	Willem van Oranje
+Dike - Levee with +1:hammers: for Water Tiles
+
+	Zara Yaqob
+Stele - Monument with extra +25%:culture:

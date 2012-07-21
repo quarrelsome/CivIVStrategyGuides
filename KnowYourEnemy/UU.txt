@@ -1,0 +1,155 @@
+	Alexander
+Phalanx - Axeman with +100% [i]Defense[/i] vs. Chariots
+
+	Asoka
+Fast Worker - Worker with 3:move:
+
+	Augustus Caesar
+Praetorian - Swordsman with 8:strength: instead of 6, and costs 45:hammers: instead of 40. Loses the 10% City Attack bonus
+
+	Bismarck
+Panzer - Tank with +50% vs. Armored units
+
+	Boudica
+Gallic Warrior - Swordsman with free Guerilla I promotion. Can be produced with Copper
+
+	Brennus
+Gallic Warrior - Swordsman with free Guerilla I promotion. Can be produced with Copper
+
+	Catherine
+Cossack - Cavalry with +50% vs. Mounted units
+
+	Charlemagne
+Landsknecht - Pikeman with extra +100% vs. Melee units
+
+	Churchill
+Redcoat - Rifleman with +25% vs. Gunpowder units
+
+	Cyrus
+Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses too!
+
+	Darius
+Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses too!
+
+	De Gaulle
+Musketeer - Musketman with 2:move: instead of 1
+
+	Elizabeth
+Redcoat - Rifleman with +25% vs. Gunpowder units
+
+	Frederick
+Panzer - Tank with +50% vs. Armored units
+
+	Gandhi
+Fast Worker - Worker with 3:move:
+
+	Genghis Khan
+Keshik - Horse Archer that gets +1 First Strike, but is not Immune to First Strikes. It also Ignores Terrain Movement penalties
+
+	Gilgamesh
+Vulture - Axeman with 6:strength: instead of 5, but with +25% vs. Melee units instead of +50%
+
+	Hammurabi
+Bowman - Archer with +50% vs. Melee units
+
+	Hannibal
+Numidian Cavalry - Horse Archer with +50% vs. Melee units, and free Flanking I promotion. Has 5:strength: instead of 6
+
+	Hatshepsut
+War Chariot - Chariot with 5:strength: instead of 4, which is Immune to First Strikes
+
+	Huayna Capac
+Quechua - Warrior with +100% vs. Archery units. Starts with free Combat I promotion
+
+	Isabella
+Conquistador - Cuirassier with +50% vs. Melee units. Also gets Defensive bonuses!
+
+	Joao II
+Carrack - Caravel with Cargo Space for 2 units instead of 1, that can also carry Military units
+
+	Julius Caesar
+Praetorian - Swordsman with 8:strength: instead of 6, and costs 45:hammers: instead of 40. Loses the 10% City Attack bonus
+
+	Justinian
+Cataphract - Knight with 12:strength: instead of 10, but is not Immune to First Strikes
+
+	Kublai Khan
+Keshik - Horse Archer that gets +1 First Strike, but is not Immune to First Strikes. It also Ignores Terrain Movement penalties
+
+	Lincoln
+Navy SEAL - Marine with 1-2 First Strikes. Starts with free March promotion
+
+	Louis XIV
+Musketeer - Musketman with 2:move: instead of 1
+
+	Mansa Musa
+Skirmisher - Archer with 4:strength: instead of 3, and +1 First Strike Chance
+
+	Mao Zedong
+Cho-Ko-Nu - Crossbowman with 2 First Strikes, and causes Collateral Damage (max. 60%)
+
+	Mehmed II
+Janissary - Musketman with +25% vs. Archery, Mounted and Melee units
+
+	Montezuma
+Jaguar - Swordsman with 5:strength: instead of 6, and costs 35:hammers: instead of 40. Doesn't need Iron to produce, and starts with Woodsman I promotion
+
+	Napoleon
+Musketeer - Musketman with 2:move: instead of 1
+
+	Pacal II
+Holkan - Spearman that is Immune to First Strikes. Doesn't need Copper or Iron to build, but needs Bronze Working
+
+	Pericles
+Phalanx - Axeman with +100% [i]Defense[/i] vs. Chariots
+
+	Peter
+Cossack - Cavalry with +50% vs. Mounted units
+
+	Qin Shi Huang
+Cho-Ko-Nu - Crossbowman with 2 First Strikes, and causes Collateral Damage (max. 60%)
+
+	Ragnar
+Berserker - Maceman with extra +10% City Attack that starts with free Amphibious promotion
+
+	Ramesses II
+War Chariot - Chariot with 5:strength: instead of 4, which is Immune to First Strikes
+
+	Roosevelt
+Navy SEAL - Marine with 1-2 First Strikes. Starts with free March promotion
+
+	Saladin
+Camel Archer - Knight that can Withdraw from Combat (15% chance). Doesn't need Iron and Horses to produce, but needs Archery
+
+	Shaka
+Impi - Spearman with 2:move: and the Mobility promotion
+
+	Sitting Bull
+Dog Soldier - Axeman with 4:strength: instead of 5. +100% vs. Melee units instead of 50%. Doesn't need Copper or Iron to build
+
+	Stalin
+Cossack - Cavalry with +50% vs. Mounted units
+
+	Suleiman
+Janissary - Musketman with +25% vs. Archery, Mounted and Melee units
+
+	Suryavarman II
+Ballista Elephant - War Elephant that targets Mounted units first in combat outside cities
+
+	Tokugawa
+Samurai - Maceman that starts with 2 First Strikes and free Drill I promotion. Cannot be built with Copper
+
+	Victoria
+Redcoat - Rifleman with +25% vs. Gunpowder units
+
+	Wang Kon
+Hwacha - Catapult with +50% vs. Melee units
+
+	Washington
+Navy SEAL - Marine with 1-2 First Strikes. Starts with free March promotion
+
+	Willem van Oranje
+East Indiaman - Galleon with 6:strength: instead of 4 and Cargo Space for 4 units instead of 3. Can also Explore Rival Territory
+
+	Zara Yaqob
+Oromo Warrior - Musketman with 1 First Strike that is also Immune to First Strikes. Starts with free Drill I and Drill II promotions
