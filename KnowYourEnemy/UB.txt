@@ -20,7 +20,7 @@ Dun - Walls that give free Guerilla I promotion to units built in the city
 Research Institute - Laboratory with +2 Free Scientists
 
 	Charlemagne
-Rathaus - Courthouse with -75% Maintenance costs instead of 50%
+Rathaus - Courthouse with -75% Maintenance costs for the city instead of 50%
 
 	Churchill
 Stock Exchange - Bank with +15%:gold:
@@ -137,7 +137,7 @@ Hammam - Aqueduct with extra +2:)
 Baray - Aqueduct with extra +1:food:
 
 	Tokugawa
-Shale Plant - Coal Plant with extra +10%:hammers:
+Shale Plant - Coal Plant with extra +10%:hammers:. Provides Power without Coal
 
 	Victoria
 Stock Exchange - Bank with +15%:gold:

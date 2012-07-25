@@ -26,10 +26,10 @@ Landsknecht - Pikeman with extra +100% vs. Melee units
 Redcoat - Rifleman with +25% vs. Gunpowder units
 
 	Cyrus
-Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses too!
+Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses
 
 	Darius
-Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses too!
+Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses
 
 	De Gaulle
 Musketeer - Musketman with 2:move: instead of 1
@@ -62,7 +62,7 @@ War Chariot - Chariot with 5:strength: instead of 4, which is Immune to First St
 Quechua - Warrior with +100% vs. Archery units. Starts with free Combat I promotion
 
 	Isabella
-Conquistador - Cuirassier with +50% vs. Melee units. Also gets Defensive bonuses!
+Conquistador - Cuirassier with +50% vs. Melee units. Also gets defensive bonuses
 
 	Joao II
 Carrack - Caravel with Cargo Space for 2 units instead of 1, that can also carry Military units

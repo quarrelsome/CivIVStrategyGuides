@@ -25,10 +25,13 @@ Tactic: Bribe him against anyone you wish, join his war, aquire friendly status,
 	<Leader>
 		<Name>Asoka</Name>
 		<Image>http://i162.photobucket.com/albums/t276/DANE3E3/Asoka.jpg</Image>
-		<Techs></Techs>
-		<Traits></Traits>
-		<UU></UU>
-		<UB></UB>
+		<Techs>Mysticism and Mining</Techs>
+		<Traits>Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse
+Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder</Traits>
+		<UU>Fast Worker - Worker with 3:move:</UU>
+		<UB>Mausoleum - Jail with extra +2:)</UB>
 		<Flavour></Flavour>
 		<WarBeh></WarBeh>
 		<Pain></Pain>
@@ -37,26 +40,761 @@ Tactic: Bribe him against anyone you wish, join his war, aquire friendly status,
 	<Leader>
 		<Name>Augustus Caesar</Name>
 		<Image>http://i162.photobucket.com/albums/t276/DANE3E3/Augustus.jpg</Image>
-		<Techs></Techs>
-		<Traits></Traits>
-		<UU></UU>
-		<UB></UB>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge
+Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers</Traits>
+		<UU>Praetorian - Swordsman with 8:strength: instead of 6, and costs 45:hammers: instead of 40. Loses the 10% City Attack bonus</UU>
+		<UB>Forum - Market with additional +25%:gp: birth rate</UB>
 		<Flavour></Flavour>
 		<WarBeh></WarBeh>
 		<Pain></Pain>
 		<Analysis></Analysis>
 	</Leader>
 	<Leader>
-		<Name>Alexander</Name>
+		<Name>Bismarck</Name>
 		<Image></Image>
-		<Techs></Techs>
-		<Traits></Traits>
-		<UU></UU>
-		<UB></UB>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge</Traits>
+		<UU>Panzer - Tank with +50% vs. Armored units</UU>
+		<UB>Assembly Plant - Factory that [i]builds[/i] +50% faster with Coal. Can also turn 4 Citizens into Engineers instead of 2</UB>
 		<Flavour></Flavour>
 		<WarBeh></WarBeh>
 		<Pain></Pain>
 		<Analysis></Analysis>
 	</Leader>
-
-	</KnowYourEnemy>
+	<Leader>
+		<Name>Boudica</Name>
+		<Image></Image>
+		<Techs>Mysticism and Hunting</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Gallic Warrior - Swordsman with free Guerilla I promotion. Can be produced with Copper</UU>
+		<UB>Dun - Walls that give free Guerilla I promotion to units built in the city</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Brennus</Name>
+		<Image></Image>
+		<Techs>Mysticism and Hunting</Techs>
+		<Traits>Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Gallic Warrior - Swordsman with free Guerilla I promotion. Can be produced with Copper</UU>
+		<UB>Dun - Walls that give free Guerilla I promotion to units built in the city</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Catherine</Name>
+		<Image></Image>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers
+Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum</Traits>
+		<UU>Cossack - Cavalry with +50% vs. Mounted units</UU>
+		<UB>Research Institute - Laboratory with +2 Free Scientists</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Charlemagne</Name>
+		<Image></Image>
+		<Techs>Hunting and Mysticism</Techs>
+		<Traits>Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum
+Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers</Traits>
+		<UU>Landsknecht - Pikeman with extra +100% vs. Melee units</UU>
+		<UB>Rathaus - Courthouse with -75% Maintenance costs for the city instead of 50%</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Churchill</Name>
+		<Image></Image>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower
+Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle </Traits>
+		<UU>Redcoat - Rifleman with +25% vs. Gunpowder units</UU>
+		<UB>Stock Exchange - Bank with +15%:gold:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Cyrus</Name>
+		<Image></Image>
+		<Techs>Agriculture and Hunting</Techs>
+		<Traits>Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses</UU>
+		<UB>Apothecary - Grocer with extra +2:health:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Darius</Name>
+		<Image></Image>
+		<Techs>Agriculture and Hunting</Techs>
+		<Traits>Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse
+Financial - +1:commerce: on tiles with at least 2:commerce:</Traits>
+		<UU>Immortal - Chariot with +50% vs. Archery units. Receives defensive bonuses</UU>
+		<UB>Apothecary - Grocer with extra +2:health:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>De Gaulle</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Musketeer - Musketman with 2:move: instead of 1</UU>
+		<UB>Salon - Observatory with +1 Free Artist specialist</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Elizabeth</Name>
+		<Image></Image>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Philosophical - +100%:gp: birth rate
+Double production speed of University
+Financial - +1:commerce: on tiles with at least 2:commerce:</Traits>
+		<UU>Redcoat - Rifleman with +25% vs. Gunpowder units</UU>
+		<UB>Stock Exchange - Bank with +15%:gold:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Frederick</Name>
+		<Image></Image>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Philosophical - +100%:gp: birth rate
+Double production speed of University
+Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse</Traits>
+		<UU>Panzer - Tank with +50% vs. Armored units</UU>
+		<UB>Assembly Plant - Factory that [i]builds[/i] +50% faster with Coal. Can also turn 4 Citizens into Engineers instead of 2</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Gandhi</Name>
+		<Image></Image>
+		<Techs>Mysticism and Mining</Techs>
+		<Traits>Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder
+Philosophical - +100%:gp: birth rate
+Double production speed of University</Traits>
+		<UU>Fast Worker - Worker with 3:move:</UU>
+		<UB>Mausoleum - Jail with extra +2:)</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Genghis Khan</Name>
+		<Image></Image>
+		<Techs>Hunting and The Wheel</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers</Traits>
+		<UU>Keshik - Horse Archer that gets +1 First Strike, but is not Immune to First Strikes. It also Ignores Terrain Movement penalties</UU>
+		<UB>Ger - Stable that gives new Mounted units +4 XP instead of 2</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Gilgamesh</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum
+Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle </Traits>
+		<UU>Vulture - Axeman with 6:strength: instead of 5, but with +25% vs. Melee units instead of +50%</UU>
+		<UB>Ziggurat - Courthouse that costs 90:hammers: instead of 120. Can be built with Priesthood instead of Civil Service</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Hammurabi</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse</Traits>
+		<UU>Bowman - Archer with +50% vs. Melee units</UU>
+		<UB>Garden - Colosseum with extra +2:health:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Hannibal</Name>
+		<Image></Image>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Financial - +1:commerce: on tiles with at least 2:commerce:
+		Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Numidian Cavalry - Horse Archer with +50% vs. Melee units, and free Flanking I promotion. Has 5:strength: instead of 6</UU>
+		<UB>Cothon - Harbor with +1 Trade Routes. Costs 100:hammers: instead of 80</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Hatshepsut</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder
+Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum</Traits>
+		<UU>War Chariot - Chariot with 5:strength: instead of 4, which is Immune to First Strikes</UU>
+		<UB>Obelisk - Monument that can turn 2 Citizens into Priests</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Huayna Capac</Name>
+		<Image></Image>
+		<Techs>Agriculture and Mysticism</Techs>
+		<Traits>Financial - +1:commerce: on tiles with at least 2:commerce:
+		Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge</Traits>
+		<UU>Quechua - Warrior with +100% vs. Archery units. Starts with free Combat I promotion</UU>
+		<UB>Terrace - Granary with +2:culture:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Isabella</Name>
+		<Image></Image>
+		<Techs>Fishing and Mysticism</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder</Traits>
+		<UU>Conquistador - Cuirassier with +50% vs. Melee units. Also gets defensive bonuses</UU>
+		<UB>Citadel - Castle that gives new Siege units +5 XP</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Joao II</Name>
+		<Image></Image>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers
+Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers</Traits>
+		<UU>Carrack - Caravel with Cargo Space for 2 units instead of 1, that can also carry Military units</UU>
+		<UB>Feitoria - Customs House with extra +1:commerce: for Water Tiles</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Julius Caesar</Name>
+		<Image></Image>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers
+Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse</Traits>
+		<UU>Praetorian - Swordsman with 8:strength: instead of 6, and costs 45:hammers: instead of 40. Loses the 10% City Attack bonus</UU>
+		<UB>Forum - Market with additional +25%:gp: birth rate</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Justinian</Name>
+		<Image></Image>
+		<Techs>Mysticism and The Wheel</Techs>
+		<Traits>Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder
+Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers</Traits>
+		<UU>Cataphract - Knight with 12:strength: instead of 10, but is not Immune to First Strikes</UU>
+		<UB>Hippodrome - Theatre with extra +1:), and +1:) per 5%:culture: rate instead of per 10%. +1:) from Horse instead of Dye</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Kublai Khan</Name>
+		<Image></Image>
+		<Techs>Hunting and The Wheel</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum</Traits>
+		<UU>Keshik - Horse Archer that gets +1 First Strike, but is not Immune to First Strikes. It also Ignores Terrain Movement penalties</UU>
+		<UB>Ger - Stable that gives new Mounted units +4 XP instead of 2</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Lincoln</Name>
+		<Image></Image>
+		<Techs>Fishing and Agriculture</Techs>
+		<Traits>Philosophical - +100%:gp: birth rate
+Double production speed of University
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Navy SEAL - Marine with 1-2 First Strikes. Starts with free March promotion</UU>
+		<UB>Mall - Supermarket with extra +20%:gold: and +1:) from Hit Musicals, Hit Singles and Hit Movies</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Louis XIV</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum
+Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge</Traits>
+		<UU>Musketeer - Musketman with 2:move: instead of 1</UU>
+		<UB>Salon - Observatory with +1 Free Artist specialist</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Mansa Musa</Name>
+		<Image></Image>
+		<Techs>Mining and The Wheel</Techs>
+		<Traits>Financial - +1:commerce: on tiles with at least 2:commerce:
+		Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder</Traits>
+		<UU>Skirmisher - Archer with 4:strength: instead of 3, and +1 First Strike Chance</UU>
+		<UB>Mint - Forge with +10%:gold:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Mao Zedong</Name>
+		<Image></Image>
+		<Techs>Agriculture and Mining</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle </Traits>
+		<UU>Cho-Ko-Nu - Crossbowman with 2 First Strikes, and causes Collateral Damage (max. 60%)</UU>
+		<UB>Pavilion - Theatre with extra +25%:culture:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Mehmed II</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse</Traits>
+		<UU>Janissary - Musketman with +25% vs. Archery, Mounted and Melee units</UU>
+		<UB>Hammam - Aqueduct with extra +2:)</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Montezuma</Name>
+		<Image></Image>
+		<Techs>Mysticism and Hunting</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder
+</Traits>
+		<UU>Jaguar - Swordsman with 5:strength: instead of 6, and costs 35:hammers: instead of 40. Doesn't need Iron to produce, and starts with Woodsman I promotion</UU>
+		<UB>Sacrificial Altar - Courthouse with -50% Whipping Anger duration. Costs 90:hammers: instead of 120</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Napoleon</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Musketeer - Musketman with 2:move: instead of 1</UU>
+		<UB>Salon - Observatory with +1 Free Artist specialist</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Pacal II</Name>
+		<Image></Image>
+		<Techs>Mysticism and Mining</Techs>
+		<Traits>Financial - +1:commerce: on tiles with at least 2:commerce:
+		Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers</Traits>
+		<UU>Holkan - Spearman that is Immune to First Strikes. Doesn't need Copper or Iron to build, but needs Bronze Working</UU>
+		<UB>Ball Court - Colosseum with extra +2:)</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Pericles</Name>
+		<Image></Image>
+		<Techs>Fishing and Hunting</Techs>
+		<Traits>Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum
+Philosophical - +100%:gp: birth rate
+Double production speed of University</Traits>
+		<UU>Phalanx - Axeman with +100% [i]Defense[/i] vs. Chariots</UU>
+		<UB>Odeon - Colosseum with extra +1:) and +3:culture:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Peter</Name>
+		<Image></Image>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Philosophical - +100%:gp: birth rate
+Double production speed of University</Traits>
+		<UU>Cossack - Cavalry with +50% vs. Mounted units</UU>
+		<UB>Research Institute - Laboratory with +2 Free Scientists</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Qin Shi Huang</Name>
+		<Image></Image>
+		<Techs>Agriculture and Mining</Techs>
+		<Traits>Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge
+Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle</Traits>
+		<UU>Cho-Ko-Nu - Crossbowman with 2 First Strikes, and causes Collateral Damage (max. 60%)</UU>
+		<UB>Pavilion - Theatre with extra +25%:culture:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Ragnar</Name>
+		<Image></Image>
+		<Techs>Fishing and Hunting</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Financial - +1:commerce: on tiles with at least 2:commerce:</Traits>
+		<UU>Berserker - Maceman with extra +10% City Attack that starts with free Amphibious promotion</UU>
+		<UB>Trading Post - Lighthouse that gives free Navigation I promotion to new Naval units built in the city</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Ramesses II</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder
+Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge</Traits>
+		<UU>War Chariot - Chariot with 5:strength: instead of 4, which is Immune to First Strikes</UU>
+		<UB>Obelisk - Monument that can turn 2 Citizens into Priests</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Roosevelt</Name>
+		<Image></Image>
+		<Techs>Fishing and Agriculture</Techs>
+		<Traits>Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge
+Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse</Traits>
+		<UU>Navy SEAL - Marine with 1-2 First Strikes. Starts with free March promotion</UU>
+		<UB>Mall - Supermarket with extra +20%:gold: and +1:) from Hit Musicals, Hit Singles and Hit Movies</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Saladin</Name>
+		<Image></Image>
+		<Techs>Mysticism and The Wheel</Techs>
+		<Traits>Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle 
+Spiritual - No Anarchy when changing Civics or Religions
+Double production speed of Temples and the Cristo Redentor Wonder</Traits>
+		<UU>Camel Archer - Knight that can Withdraw from Combat (15% chance). Doesn't need Iron and Horses to produce, but needs Archery</UU>
+		<UB>Madrassa - Library with extra +2:culture:. Can turn 2 Citizens into Priests</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Shaka</Name>
+		<Image></Image>
+		<Techs>Agriculture and Hunting</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers</Traits>
+		<UU>Impi - Spearman with 2:move: and the Mobility promotion</UU>
+		<UB>Ikhanda - Barracks with -20% maintenance costs for the city. Costs 60:hammers: instead of 50</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Sitting Bull</Name>
+		<Image></Image>
+		<Techs>Fishing and Agriculture</Techs>
+		<Traits>Philosophical - +100%:gp: birth rate
+Double production speed of University
+Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle</Traits>
+		<UU>Dog Soldier - Axeman with 4:strength: instead of 5. +100% vs. Melee units instead of 50%. Doesn't need Copper or Iron to build</UU>
+		<UB>Totem Pole - Monument that gives +3 XP to Archery units built in the city</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Stalin</Name>
+		<Image></Image>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Industrious - +50%:hammers: bonus on production of Wonders
+Double production speed of Forge</Traits>
+		<UU>Cossack - Cavalry with +50% vs. Mounted units</UU>
+		<UB>Research Institute - Laboratory with +2 Free Scientists</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Suleiman</Name>
+		<Image></Image>
+		<Techs>Agriculture and The Wheel</Techs>
+		<Traits>Philosophical - +100%:gp: birth rate
+Double production speed of University
+Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers</Traits>
+		<UU>Janissary - Musketman with +25% vs. Archery, Mounted and Melee units</UU>
+		<UB>Hammam - Aqueduct with extra +2:)</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Suryavarman II</Name>
+		<Image></Image>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum</Traits>
+		<UU>Ballista Elephant - War Elephant that targets Mounted units first in combat outside cities</UU>
+		<UB>Baray - Aqueduct with extra +1:food:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Tokugawa</Name>
+		<Image></Image>
+		<Techs>Fishing and The Wheel</Techs>
+		<Traits>Aggressive - Free Combat I promotion for Melee and Gunpowder units
+Double production speed of Barracks and Drydock
+Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle </Traits>
+		<UU>Samurai - Maceman that starts with 2 First Strikes and free Drill I promotion. Cannot be built with Copper</UU>
+		<UB>Shale Plant - Coal Plant with extra +10%:hammers:. Provides Power without Coal</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Victoria</Name>
+		<Image></Image>
+		<Techs>Fishing and Mining</Techs>
+		<Traits>Imperialistic - +100% emergence of Great Generals
++50%:hammers: bonus on production of Settlers
+Financial - +1:commerce: on tiles with at least 2:commerce:</Traits>
+		<UU>Redcoat - Rifleman with +25% vs. Gunpowder units</UU>
+		<UB>Stock Exchange - Bank with +15%:gold:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Wang Kon</Name>
+		<Image></Image>
+		<Techs>Mysticism and Mining</Techs>
+		<Traits>Financial - +1:commerce: on tiles with at least 2:commerce:
+		Protective - Free Drill I and City Garrison I promotions for Archery and Gunpowder units
+Double production speed of Walls and Castle</Traits>
+		<UU>Hwacha - Catapult with +50% vs. Melee units</UU>
+		<UB>Seowon - University with extra +10%:science:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Washington</Name>
+		<Image></Image>
+		<Techs>Fishing and Agriculture</Techs>
+		<Traits>Expansive - +2:health: per city
+Double production speed of Granary and Harbor
++25%:hammers: bonus on production of Workers
+Charismatic - +1:) per city
+-25% XP needed for unit promotions
++1:) from Monument and Broadcast Tower</Traits>
+		<UU>Navy SEAL - Marine with 1-2 First Strikes. Starts with free March promotion</UU>
+		<UB>Mall - Supermarket with extra +20%:gold: and +1:) from Hit Musicals, Hit Singles and Hit Movies</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Willem van Oranje</Name>
+		<Image></Image>
+		<Techs>Fishing and Agriculture</Techs>
+		<Traits>Financial - +1:commerce: on tiles with at least 2:commerce:
+		Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum</Traits>
+		<UU>East Indiaman - Galleon with 6:strength: instead of 4 and Cargo Space for 4 units instead of 3. Can also Explore Rival Territory</UU>
+		<UB>Dike - Levee with +1:hammers: for Water Tiles</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+	<Leader>
+		<Name>Zara Yaqob</Name>
+		<Image></Image>
+		<Techs>Hunting and Mining</Techs>
+		<Traits>Creative - +2:culture: per city
+Double production speed of Library, Theatre and Colosseum
+Organized - -50% Civic upkeep costs
+Double production speed of Lighthouse, Factory and Courthouse</Traits>
+		<UU>Oromo Warrior - Musketman with 1 First Strike that is also Immune to First Strikes. Starts with free Drill I and Drill II promotions</UU>
+		<UB>Stele - Monument with extra +25%:culture:</UB>
+		<Flavour></Flavour>
+		<WarBeh></WarBeh>
+		<Pain></Pain>
+		<Analysis></Analysis>
+	</Leader>
+</KnowYourEnemy>
