@@ -14,15 +14,16 @@
 	[CENTER]
     [SIZE="3"][B]<xsl:value-of select="Type"/>[/B][/SIZE]
 	
-    IMAGE TODO
-    [SIZE="3"]TECHS - TODO[/SIZE]
+    [IMG]<xsl:value-of select="Image"/>[/IMG]
+	[B]TECHS - [/B]<xsl:value-of select="Techs"/>
 
-    [B]TRAITS - TODO[/B]
-	[B]UU / UB - TODO[/B]
+    [B]TRAITS - [/B] <xsl:value-of select="CivfTraits"/>
+	
+	[B]UU / UB - [/B] <xsl:value-of select="UU"/> / <xsl:value-of select="UB"/>
 	
 	[B]Favorite Civic[/B] - <xsl:value-of select="FavoriteCivic"/>
 
-	([B]WFYABTA[/B]) - After [COLOR="Blue"][B]<xsl:value-of select="iNoTechTradeThreshold"/>[/B][/COLOR] Techs
+	([B]'We fear you are becoming too advanced' (WFYABTA)[/B]) - After [COLOR="Blue"][B]<xsl:value-of select="iNoTechTradeThreshold"/>[/B][/COLOR] Techs
 	Will trade tech to human when [B][COLOR="Blue"]<xsl:value-of select="iTechTradeKnownPercent"/>%[/COLOR][/B] of the AI also know the tech
 
 	Builds Wonders [COLOR="Sienna"][B]<xsl:value-of select="iWonderConstructRand"/>/10[/B][/COLOR] 
@@ -30,7 +31,7 @@
 	Razes Cities [COLOR="sienna"][B]<xsl:value-of select="iRazeCityProb"/>/10[/B][/COLOR] 
 	Espionage Spending [COLOR="sienna"][B]<xsl:value-of select="iEspionageWeight"/>/10[/B][/COLOR]
 
-	Flavor [COLOR="Sienna"][B]TODO[/B][/COLOR]
+	Flavor [COLOR="Sienna"][B]<xsl:value-of select="Flavour"/>[/B][/COLOR]
 	Faction (Peace Weight) [COLOR="sienna"][B]<xsl:value-of select="iBasePeaceWeight"/>[/B][/COLOR]
 	Base Attitude towards Human Player [COLOR="sienna"][B]<xsl:value-of select="iBaseAttitude"/>[/B][/COLOR]
 	
@@ -40,7 +41,7 @@
 		Shared Civics: Up to [COLOR="blue"]+<xsl:value-of select="iFavoriteCivicAttitudeChangeLimit"/>[/COLOR]
 		Shared Religion: Up to [COLOR="blue"]+<xsl:value-of select="iSameReligionAttitudeChangeLimit"/>[/COLOR] (additional +1 if <xsl:value-of select="Type"/> also owns the holy city)
 		Shared War: Up to [COLOR="blue"]+<xsl:value-of select="iShareWarAttitudeChangeLimit"/>[/COLOR] (additional +1 while sharing the war)
-		Tech trades required to receive +1 "shared your technological discoveries with us" - [COLOR="blue"]<xsl:value-of select="MemoryAttitudePercents/CivfMemoryTradedTechToUs"/>[/COLOR]
+		[COLOR="red"]To remove/change - [/COLOR]Tech trades required to receive +1 "shared your technological discoveries with us" - [COLOR="blue"]<xsl:value-of select="MemoryAttitudePercents/CivfMemoryTradedTechToUs"/>[/COLOR]
 	
 	[SIZE="3"][B] Attitude Thresholds[/B][/SIZE]
 		Will open borders: [COLOR="blue"]<xsl:value-of select="OpenBordersRefuseAttitudeThreshold"/>[/COLOR]
@@ -61,6 +62,18 @@
 		Favored unit type: <xsl:value-of select="UnitAIWeightModifiers/CivfFavouriteUnit"/>
 
 		Favorite Tile Improvement: <xsl:value-of select="ImprovementWeightModifiers/CivfFavouriteImprovement"/>
+		
+	[SIZE="3"][B] War Behaviour [/B][/SIZE]	
+	
+	<xsl:value-of select="WarBeh"/>
+	
+	[SIZE="3"][B] Pain [/B][/SIZE]	
+	
+	<xsl:value-of select="Pain"/>
+	
+	[SIZE="3"][B] Analysis [/B][/SIZE]	
+	
+	<xsl:value-of select="Analysis"/>
   </xsl:template>
  
 </xsl:stylesheet>

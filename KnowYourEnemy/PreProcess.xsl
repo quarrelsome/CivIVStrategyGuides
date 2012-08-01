@@ -47,8 +47,35 @@
 
  <!-- All of the following converts values into more usable forms -->
   <xsl:template match="LeaderHeadInfo/Type">
-  <xsl:element  name="Type">
-<xsl:value-of select="civf:book-capitalise-all(replace(substring-after(current(), 'LEADER_'), '_', ' '))"/>
+  <xsl:variable name="LeaderName" select="normalize-space(civf:book-capitalise-all(replace(substring-after(current(), 'LEADER_'), '_', ' ')))"/>
+  <xsl:element  name="Type">	 
+     <xsl:value-of select="$LeaderName"/>
+  </xsl:element>
+  <!-- pull the additional settings from the "extra info" file -->
+  <xsl:variable name="ExtraInfo" select="document('KnowYourEnemy-ExtraInfo.xml')/KnowYourEnemy/Leader[Name=$LeaderName]"/>
+  <xsl:element name="Image">
+     <xsl:value-of select="$ExtraInfo/Image"/>
+  </xsl:element>
+  <xsl:element name="Techs">
+     <xsl:value-of select="$ExtraInfo/Techs"/>
+  </xsl:element>
+  <xsl:element name="CivfTraits">
+     <xsl:value-of select="$ExtraInfo/Traits"/>
+  </xsl:element>
+  <xsl:element name="UU">
+     <xsl:value-of select="$ExtraInfo/UU"/>
+  </xsl:element>
+  <xsl:element name="UB">
+     <xsl:value-of select="$ExtraInfo/UB"/>
+  </xsl:element>
+    <xsl:element name="WarBeh">
+     <xsl:value-of select="$ExtraInfo/WarBeh"/>
+  </xsl:element>
+    <xsl:element name="Pain">
+     <xsl:value-of select="$ExtraInfo/Pain"/>
+  </xsl:element>
+    <xsl:element name="Analysis">
+     <xsl:value-of select="$ExtraInfo/Analysis"/>
   </xsl:element>
  </xsl:template>
  
@@ -61,6 +88,13 @@
  <xsl:template match="LeaderHeadInfo/MemoryAttitudePercents/MemoryAttitudePercent[MemoryType='MEMORY_TRADED_TECH_TO_US']">
   <xsl:element  name="CivfMemoryTradedTechToUs">
    <xsl:value-of select="iMemoryAttitudePercent"/>
+  </xsl:element>
+ </xsl:template>
+ 
+  <xsl:template match="LeaderHeadInfo/Flavors/Flavor">
+  <xsl:element  name="CivfFlavours">
+   <xsl:value-of select="civf:book-capitalise-all(replace(substring-after(current()/FlavorType/@val, 'FLAVOR_'), '_', ' '))"/>
+   <xsl:value-of select="./iFlavour/@val" separator=","/>
   </xsl:element>
  </xsl:template>
  
